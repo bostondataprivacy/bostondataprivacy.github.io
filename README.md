@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Boston Data  Privacy Research Group
 
 You can use the [editor on GitHub](https://github.com/bostondataprivacy/bostondataprivacy.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
