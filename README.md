@@ -13,5 +13,27 @@ Welcome to the web page for the Boston-area data privacy research group! We are 
 - Adam Smith (BU)
 - Salil Vadhan (Harvard)
 
-![Image](src)
+### Postdocs
+
+- Aloni Cohen (BU)
+
+### Students 
+
+- Daniel Alabi (Harvard)
+- Gavin Brown (BU)
+- Christina Ilvento (Harvard)
+- Palak Jain  (BU)
+- Vikrant Singhal (Northeastern)
+- Satchit Sivakumar (BU)
+- Marika Swanberg (BU)
+- Jayshree Sarathy (Harvard)
+- Lydia Zakynthinou (Northeastern)
+
+
+### Alums 
+
+- Ira Globus-Harris (--> PhD at UPenn)
+- Audra McMillan (--> Apple)
+- Om Thakkar (--> Google)
+
 
