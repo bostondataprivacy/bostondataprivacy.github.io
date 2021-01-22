@@ -1,4 +1,15 @@
 ---
+theme: jekyll-theme-dinky
+title: Boston-area Data Privacy
+description: A web site for a Boston-area group of researchers working on data privacy.
+
+show_downloads: "false"
+google_analytics: "false"
+
+github:
+  is_user_page: "false"
+  is_project_page: "false"
+  
 layout: page
 title: Seminars
 permalink: /seminars/
