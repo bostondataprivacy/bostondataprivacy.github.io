@@ -2,11 +2,6 @@ theme: jekyll-theme-dinky
 title: Boston-area Data Privacy
 description: A web site for a Boston-area group of researchers working on data privacy.
 
-layout: page
-title: "Seminars"
-permalink: /seminars/
-
-
 show_downloads: "false"
 google_analytics: "false"
 
