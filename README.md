@@ -1,9 +1,9 @@
 ## Boston-area Data Privacy Research Group
 
 
-Welcome to the web page for the Boston-area data privacy research group! We are faculty, postdocs, students, and research staff at [Boston University](http://bu.edu), [Harvard](http://harvar.edu) and [Northeastern](http://neu.edu) wokring on the foundations of data privacy and related topics. 
+Welcome to the web page for the Boston-area data privacy research group! We are faculty, postdocs, students, and research staff at [Boston University](http://bu.edu), [Harvard](http://harvard.edu) and [Northeastern](http://neu.edu) working on the foundations of data privacy and related topics. 
 
-View our [Seminars page](https://bostondataprivacy.github.io/seminars/)
+View our [Seminars page](seminars)
 
 ### Faculty 
 
@@ -22,8 +22,9 @@ View our [Seminars page](https://bostondataprivacy.github.io/seminars/)
 ### Students 
 
 - Daniel Alabi (Harvard)
+- Victor Balcer (Harvard)
 - Gavin Brown (BU)
-- Christina Ilvento (Harvard)
+- Albert Cheu (Northeastern)
 - Palak Jain  (BU)
 - Vikrant Singhal (Northeastern)
 - Satchit Sivakumar (BU)
@@ -34,8 +35,9 @@ View our [Seminars page](https://bostondataprivacy.github.io/seminars/)
 
 ### Alums 
 
-- Ira Globus-Harris (--> PhD at UPenn)
-- Audra McMillan (--> Apple)
-- Om Thakkar (--> Google)
+- Ira Globus-Harris (BU --> PhD at UPenn)
+- Christina Ilvento (Harvard --> Google)
+- Audra McMillan (BU --> Apple)
+- Om Thakkar (BU --> Google)
 
 
