@@ -1,6 +1,6 @@
 body {
 	font-family: "Lato", sans-serif;
-	background: #f8f8f8;
+	background: #dedede;
 }
 
 .sidenav {
@@ -21,12 +21,12 @@ body {
 
 .sidenav a {
   text-decoration: none;
-  color: #e50000;
+  color: #ffffff;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #880000;
+  color: #bda82f;
 }
 
 .sidenav-title {
