@@ -22,7 +22,10 @@
 		<div class="main-title">
 			Boston-area Data Privacy
 		</div>
-		
+		 <p>
+		 	Below is the schedule of previous and upcoming Boston-area data privacy seminars. Join the <a href="https://groups.google.com/g/bostondataprivacy">mailing list</a> and <a href="https://calendar.google.com/calendar/u/0?cid=ZmN2MDBuNGd2MjdwazY0M2E4OXEwNDVqajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google calendar</a> for more information, including the Zoom meeting links.
+		 </p>
+
 		<div class="schedule">
 			<table width="100%">
 				<tr><td colspan=3><center><strong>=== Upcoming Talks ===</strong></center></td></tr>
@@ -30,6 +33,28 @@
 					<th width="12%">Date</th>
 					<th width="70%">Talk</th>
 				</tr>
+				<tr>
+					<td>Friday, February 12 at 11-12:30 ET</td>
+
+					<td><strong>Towards Good Statistical Inference from Differentially Private Data</strong><br>
+						
+					<br> Speaker: <a href="https://ruobingong.github.io/">Ruobin Gong, Rutgers University</a>
+					<br>
+					<br> Abstract: Differential privacy (DP) brings provability and transparency to statistical disclosure limitation. When data users migrate their analysis to private data, there is no guarantee that a statistical model, otherwise good for non-private data, will still produce trustworthy conclusions. This talk contemplates two challenges faced by data users to draw good statistical inference from private data releases. When the DP mechanism is transparent, I discuss how approximate computation techniques (Monte Carlo EM, approximate Bayesian computation) can be systematically adapted to produce exact inference with respect to the joint specification of the intended model and the DP mechanism. In the presence of mandated invariants which the data curator must observe, I advocate for the congenial design of the DP mechanism via standard probabilistic conditioning on the invariant margins, as an alternative to optimization-based post-processing. This proposal preserves both the  privacy guarantee of the output and its statistical intelligibility. A demonstration of restricted contingency table privatization is performed via a Markov chain algorithm.
+					</td>
+				</tr>
+
+				<td>Friday, February 19 at 11-12:30 ET</td>
+				<td><strong>On Distributed Differential Privacy and Counting Distinct Elements</strong><br>
+
+						
+					<br> Speaker: <a href="http://www.mit.edu/~lijieche/">Lijie Chen, MIT</a>
+					<br>
+					<br> Abstract: We study the setup where each of n users holds an element from a discrete set, and the goal is to count the number of distinct elements across all users, under the constraint of (eps, delta)-differentially privacy: (1) In the non-interactive local setting, we prove that the (additive) error of any protocol is Omega(n) for any constant eps and for any delta inverse polynomial in n. (2) In the single-message shuffle setting, we prove a lower bound of n/polylog(n) on the error for any constant eps and for some delta inverse quasi-polynomial in n. We do so by building on the moment-matching method from the literature on distribution estimation. (3) In the multi-message shuffle setting, we give a protocol with at most one message per user in expectation and with an error of sqrt{n} polylog(n) for any constant eps and for any delta inverse polynomial in n. Our protocol is also robustly shuffle private, and our error of sqrt{n} matches a known lower bound for such protocols. Our proof technique relies on a new notion, that we call dominated protocols, and which can also be used to obtain the first non-trivial lower bounds against multi-message shuffle protocols for the well-studied problems of selection and learning parity. Our lower bound for estimating the number of distinct elements provides the first omega(sqrt{n}) separation between global sensitivity and error in local differential privacy, thus answering an open question of Vadhan (2017). We also provide a simple construction that gives n/polylog(n) separation between global sensitivity and error in two-party differential privacy, thereby answering an open question of McGregor et al. (2011). This is joint work with Badih Ghazi, Ravi Kumar, and Pasin Manurangsi from Google Research.
+					</td>
+				</tr>
+
+				<tr><td colspan=3><center><strong>=== Past Talks ===</strong></center></td></tr>
 				<tr>
 					<td>Friday, February 5 at 11-12:30 ET</td>
 
@@ -39,8 +64,6 @@
 					<br> Abstract: We give new upper and lower bounds on the minimax sample complexity of differentially private mean estimation of distributions with bounded $k$-th moments. Roughly speaking, in the univariate case, we show that $$n = \Theta\left(\frac{1}{\alpha^2} + \frac{1}{\alpha^{\frac{k}{k-1}}\varepsilon}\right)$$ samples are necessary and sufficient to estimate the mean to $\alpha$-accuracy under $\varepsilon$-differential privacy, or any of its common relaxations. This result demonstrates a qualitatively different behavior compared to estimation absent privacy constraints, for which the sample complexity is identical for all $k \geq 2$. We also give algorithms for the multivariate setting whose sample complexity is a factor of $O(d)$ larger than the univariate case.
 					</td>
 				</tr>
-
-				<tr><td colspan=3><center><strong>=== Past Talks ===</strong></center></td></tr>
 				<tr>
 					<td>
 						Monday, January 25 at 3PM ET
