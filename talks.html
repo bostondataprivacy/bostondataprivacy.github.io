@@ -35,17 +35,29 @@
 				</tr>
 				
 
+				<tr><td>Friday, March 26 at 11-12:30 ET</td>
+				<td><strong>Security and Privacy Guarantees in Machine Learning with Differential Privacy</strong><br>
+
+						
+					<br> Speaker: <a href="https://roxanageambasu.github.io/">Roxana Geambasu, Columbia University</a>
+					<br>
+					<br> Abstract: Machine learning (ML) is driving many of our applications and life-changing decisions.  Yet, it is often brittle and unstable, making decisions that are hard to understand or can be exploited.  Tiny changes to an input can cause dramatic changes in predictions; this results in decisions that surprise, appear unfair, or enable attack vectors such as adversarial examples.  Moreover, models trained on users' data can encode not only general trends from large datasets but also very specific, personal information from these datasets; this threatens to expose users' secrets through ML models or predictions.  This talk positions differential privacy (DP) -- a rigorous privacy theory -- as a versatile foundation for building into ML much-needed guarantees of security, stability, and privacy.  I first present PixelDP (S&P'19), a scalable certified defense against adversarial example attacks that leverages DP theory to guarantee a level of robustness against these attacks.  I then present Sage (SOSP'19), a DP ML platform that bounds the cumulative leakage of secrets through models while addressing some of the most pressing challenges of DP, such as running out of privacy budget and the privacy-accuracy tradeoff.  PixelDP and Sage are designed from a pragmatic, systems perspective and illustrate that DP theory is powerful but requires adaptation to achieve practical guarantees for ML workloads.
+					</td>
+				</tr>
+
+				<tr><td colspan=3><center><strong>=== Previous Talks ===</strong></center></td></tr>
+
 				<tr><td>Friday, March 19 at 11-12:30 ET</td>
 				<td><strong>On Distributed Differential Privacy and Counting Distinct Elements</strong><br>
 
 						
 					<br> Speaker: <a href="http://www.mit.edu/~lijieche/">Lijie Chen, MIT</a>
+					<br><a href="https://bostonu.zoom.us/rec/share/n_7OapoERy6eKNDisJ_hu-2tbonYteVM_g6pk5vygYCjI9U_5elBcRcmZKpGveMK.ber9t0i4iAbLWWi1">View recording here</a>
 					<br>
 					<br> Abstract: We study the setup where each of n users holds an element from a discrete set, and the goal is to count the number of distinct elements across all users, under the constraint of (eps, delta)-differentially privacy: (1) In the non-interactive local setting, we prove that the (additive) error of any protocol is Omega(n) for any constant eps and for any delta inverse polynomial in n. (2) In the single-message shuffle setting, we prove a lower bound of n/polylog(n) on the error for any constant eps and for some delta inverse quasi-polynomial in n. We do so by building on the moment-matching method from the literature on distribution estimation. (3) In the multi-message shuffle setting, we give a protocol with at most one message per user in expectation and with an error of sqrt{n} polylog(n) for any constant eps and for any delta inverse polynomial in n. Our protocol is also robustly shuffle private, and our error of sqrt{n} matches a known lower bound for such protocols. Our proof technique relies on a new notion, that we call dominated protocols, and which can also be used to obtain the first non-trivial lower bounds against multi-message shuffle protocols for the well-studied problems of selection and learning parity. Our lower bound for estimating the number of distinct elements provides the first omega(sqrt{n}) separation between global sensitivity and error in local differential privacy, thus answering an open question of Vadhan (2017). We also provide a simple construction that gives n/polylog(n) separation between global sensitivity and error in two-party differential privacy, thereby answering an open question of McGregor et al. (2011). This is joint work with Badih Ghazi, Ravi Kumar, and Pasin Manurangsi from Google Research.
 					</td>
 				</tr>
 
-				<tr><td colspan=3><center><strong>=== Previous Talks ===</strong></center></td></tr>
 
 				<tr><td>Friday, March 12 at 11-12:30 ET</td>
 				<td><strong>Algorithmic Challenges in Efficient Training of Private (Deep) Language Models</strong><br>
