@@ -71,7 +71,7 @@
 						</td>
 					</tr>
 
-				<tr><td>Friday, October 29 at 11:15-12:45 ET</td>
+				<tr><td>Friday, October 29 at 11-12:30 ET</td>
 					<td><strong>Hyperparameter Tuning with Renyi Differential Privacy</strong><br>
 		
 								
@@ -82,11 +82,14 @@
 					</tr>	
 				
 				<tr><td>Friday, November 5 at 11-12:30 ET</td>
-					<td><strong>TBD</strong><br>
+					<td><strong>User-Level Differentially Private Learning via Correlated Sampling</strong><br>
 			
 									
 						<br> Speaker: <a href="https://pasin30055.github.io">Pasin Manurangsi, Google</a>
 						<br>
+						<br> Abstract:  Most works in learning with differential privacy (DP) have focused on the setting where each user has a single sample. In this work, we consider the setting where each user holds $m$ samples and the privacy protection is enforced at the level of each user's data.  We show that, in this setting, we may learn with a much fewer number of users. Specifically, we show that, as long as each user receives sufficiently many samples, we can learn any privately learnable class via an $(\epsilon, \delta)$-DP algorithm using only $O(\log(1/\delta)/\epsilon)$ users. For $\epsilon$-DP algorithms, we show that we can learn using only $O_{\epsilon}(d)$ users even in the local model, where $d$ is the probabilistic representation dimension. In both cases, we show a nearly-matching lower bound on the number of users required.
+
+						A crucial component of our results is a generalization of global stability [Bun, Livni, Moran, FOCS 2020]  that allows the use of public randomness. Under this relaxed notion, we employ a correlated sampling strategy to show that the global stability can be boosted to be arbitrarily close to one, at a polynomial expense in the number of samples.
 						</td>
 					</tr>
 				
