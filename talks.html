@@ -37,7 +37,24 @@
 				</tr>
 				-->
 
-				<tr><td colspan=3><center><strong>=== Upcoming Talks ===</strong></center></td></tr>
+				<tr><td colspan=3><center><strong>=== Spring 2022 ===</strong></center></td></tr>
+
+				<tr><td>Friday, January 21 at 11-12:30 ET</td>
+					<td><strong>FriendlyCore: Practical Differentially Private Aggregation</strong><br>
+	
+							
+						<br> Speaker: <a href="http://theertha.info">Eliad Tsfadia, Tel-Aviv University</a>
+						<br>
+						<br> Abstract:  Differentially private algorithms for common metric aggregation tasks, such as clustering or averaging, often have limited practicality due to their complexity or a large number of data points that is required for accurate results.
+						We propose a simple and practical tool FriendlyCore that takes a set of elements D from an unrestricted (pseudo) metric space as input.  When D has effective diameter r, FriendlyCore returns a ``stable'' subset C that includes all elements, except possibly a few outliers, and is certified to have diameter r. FriendlyCore can be used to preprocess the input before privately aggregating it, potentially simplifying the aggregation or boosting its accuracy. Surprisingly, FriendlyCore is light-weight with no dependence on the dimension.
+						We empirically demonstrate its advantages in boosting the accuracy of mean estimation and clustering problems such as k-means and k-GMM, outperforming tailored methods.
+						The talk is based on the joint work with Edith Cohen, Haim Kaplan, Yishay Mansour, and Uri Stemmer.
+						</td>
+					</tr>				
+
+
+
+				<tr><td colspan=3><center><strong>=== Fall 2021 ===</strong></center></td></tr>
 
 				<tr><td>Friday, October 15 at 11-12:30 ET</td>
 				<td><strong>Learning with user-level differential privacy</strong><br>
@@ -113,6 +130,7 @@
 					
 											
 						<br> Speaker: <a href="http://www.cse.psu.edu/~duk17/">Daniel Kifer, Penn State University</a>
+						<br><a href="https://youtu.be/wMT7H50tpws">View recording here</a><br>
 						<br>
 						<br> Abstract: In this talk we consider the effects of per-query error on the design of query answering algorithms under differential privacy. Per-query error is closer to stakeholder expectations than metrics that are typically considered in the literature. When differentially private systems are required to produce microdata, we show that this error metric reveals a tradeoff between query answer errors that is unrelated to privacy loss budget allocations between the queries. We also consider how to optimize the choice of linear queries to satisfy per-query error requirements.
 						</td>
@@ -123,12 +141,13 @@
 					
 											
 						<br> Speaker: <a href="https://www.cis.upenn.edu/~aaroth/">Aaron Roth, University of Pennsylvania</a>
+						<br><a href="https://youtu.be/34Xrv6FZEOQ">View recording here</a><br>
 						<br>
 						<br> Abstract: The problem of data deletion or "machine unlearning" is to remove the influence of a data point on a trained model, with computational cost that is substantially better than the baseline solution of fully retraining the model. Whereas differential privacy asks that the same algorithm run on different (neighboring) inputs yield nearby distributions, the data deletion problem requires that two different algorithms (full retraining vs. a sequence of deletion operations) yield nearby distributions when run on the same input. So the two goals are not the same: nevertheless, techniques from differential privacy carry over in natural ways to the data deletion problem. In this talk, I'll walk through two simple vignettes that illustrate this point. The work I will discuss is from a pair of papers that are joint with Varun Gupta, Chris Jung, Seth Neel, Saeed Sharifi, and Chris Waites. 
 						</td>
 					</tr>
 					
-				<tr><td colspan=3><center><strong>=== Previous Talks ===</strong></center></td></tr>
+				<tr><td colspan=3><center><strong>=== Spring 2021 ===</strong></center></td></tr>
 
 				<tr><td>Friday, May 14 at 11-12:30 ET</td>
 				<td><strong>Near-Optimal Aggregation in the Shuffle DP Model</strong><br>
