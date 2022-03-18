@@ -63,7 +63,7 @@
 						</td>
 					</tr>
 
-				<tr><td>Monday, February 28 at 11:00-12:30 ET</td>
+				<tr><td>Monday, February 28 at 11:15-12:30 ET</td>
 					<td><strong>Practical and Private (Deep) Learning without Sampling or Shuffling</strong><br>
 			
 									
@@ -74,6 +74,24 @@
 						The talk will assume basic understanding of differential privacy and machine learning. However, the talk will be self-contained w.r.t. most of the advanced concepts. 
 						 
 						This is a joint work with Peter Kairouz, Brendan McMahan, Shuang Song, and Zheng Xu from Google Research.
+					</td>
+					</tr>
+					
+				<tr><td>Monday, March 21 at 11:15-12:30 ET</td>
+					<td><strong>Private Convex Optimization via Exponential Mechanism</strong><br>
+				
+										
+						<br> Speaker: <a href="https://www.microsoft.com/en-us/research/people/sigopi/">Sivakanth Gopi, MSR</a>  
+						<br>
+						<br> Abstract:  We study differentially private optimization of (non-smooth) convex functions F(x)=E_i[f_i(x)]. The classic exponential mechanism minimizes F(x) by sampling from pi(x) ~ exp(-kF(x)), but achieves a suboptimal privacy vs utility tradeoff. We show that modifying the exponential mechanism by adding an ell_2^2 regularizer to F(x) and sampling from pi(x) ~ exp(-k(F(x)+\mu ||x||_2^2/2)) recovers both optimal empirical risk and population loss under (eps,delta)-DP. We also give an algorithm to efficiently sample from the exponential mechanism using optimal number of oracle queries to f_i(x).
+
+ 
+
+						We prove that the regularized exponential mechanism satisfies Gaussian Differential Privacy; our privacy bound is optimal (with tight constants), as it includes the analysis of Gaussian mechanism as a special case. The privacy proof uses isoperimetric inequality for strongly log-concave measures.
+						
+						 
+						
+						The link to the paper is at https://arxiv.org/pdf/2203.00263.pdf.
 					</td>
 					</tr>					
 
