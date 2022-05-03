@@ -82,6 +82,7 @@
 				
 										
 						<br> Speaker: <a href="https://www.microsoft.com/en-us/research/people/sigopi/">Sivakanth Gopi, MSR</a>  
+						<br><a href="https://youtu.be/a-Dm9yMaEyU">View recording here</a><br>
 						<br>
 						<br> Abstract:  We study differentially private optimization of (non-smooth) convex functions F(x)=E_i[f_i(x)]. The classic exponential mechanism minimizes F(x) by sampling from pi(x) ~ exp(-kF(x)), but achieves a suboptimal privacy vs utility tradeoff. We show that modifying the exponential mechanism by adding an ell_2^2 regularizer to F(x) and sampling from pi(x) ~ exp(-k(F(x)+\mu ||x||_2^2/2)) recovers both optimal empirical risk and population loss under (eps,delta)-DP. We also give an algorithm to efficiently sample from the exponential mechanism using optimal number of oracle queries to f_i(x).
 
@@ -100,6 +101,7 @@
 					
 											
 						<br> Speaker: <a href="https://users.cs.duke.edu/~ashwin/">Ashwin Machanavajjhala, Tumult Labs and Duke University</a>  
+						<br><a href="https://youtu.be/7t0nE5hVtu8">View recording here</a><br>
 						<br>
 						<br> Abstract:  In this talk we will describe two current and recent deployments of DP at the US Census Bureau and the US Internal Revenue Service that Tumult Labs is involved with. We will describe the data products and some of the considerations taken into account when designing
 						DP algorithms for these deployments. We will highlight our methodology of engaging with key stakeholders to iteratively elicit requirements for privacy and fitness-for-use as well as design and tune a differentially private algorithm that meets these requirements. This
@@ -107,6 +109,37 @@
 						will end with lessons learned and identify some open challenges. 
 					</td>
 					</tr>
+
+				<tr><td>Monday, April 25 at 11:15-12:30 ET</td>
+					<td><strong>Differentially private inference via noisy optimization</strong><br>
+						
+												
+						<br> Speaker: <a href="https://sites.google.com/site/marcoavellamedina/home">Marco Avella Medina, Columbia University</a>  
+						<br>
+						<br> Abstract:  We propose a general optimization-based framework for computing differentially private M-estimators and a new method for the construction of differentially private confidence regions. Firstly, we show that robust statistics can be used in conjunction with noisy gradient descent and noisy Newton methods in order to obtain optimal private estimators with global linear or quadratic convergence, respectively. We establish global convergence guarantees, under both local strong convexity and self-concordance, showing that our private estimators converge with high probability to a neighborhood of the non-private M-estimators. The radius of this neighborhood is nearly optimal in the sense it corresponds to the statistical minimax cost of differential privacy up to a logarithmic term. Secondly, we tackle the problem of parametric inference by constructing differentially private estimators of the asymptotic variance of our private M-estimators. This naturally leads to the use of approximate pivotal statistics for the construction of confidence regions and hypothesis testing. We demonstrate the effectiveness of a bias correction that leads to enhanced small-sample empirical performance in simulations. 
+
+						This is joint work with Casey Bradshaw and Po-Ling Loh.
+					</td>
+					</tr>
+
+				<tr><td>Monday, May 9 at 11:15-12:30 ET</td>
+					<td><strong>Low-communication Algorithms for Private Federated Data Analysis with Optimal Accuracy Guarantees</strong><br>
+							
+													
+						<br> Speaker: <a href="http://vtaly.net">Vitaly Feldman, Apple</a>  
+						<br>
+						<br> Abstract:  Locally Differentially Private (LDP) Reports are commonly used for collection of statistics and machine learning in the federated setting. 
+
+						Yet for both frequency estimation over a large domain and learning a high-dimensional model the best known LDP algorithms require sending prohibitively large messages from each client device to the server.  
+						
+						In this talk I’ll describe several recent results on low-communication LDP protocols with optimal accuracy. In particular,
+						(1) A general approach that, under standard cryptographic assumptions, gives  a low communication version of any efficient LDP randomizer with negligible loss in privacy and utility guarantees. 
+						(2) New algorithms for frequency estimation and high-dimensional mean estimation that achieve the optimal privacy/utility trade-off and have low communication cost.
+						
+						Based on joint works with Hilal Asi, Jelani Nelson, Huy Nguyen and Kunal Talwar
+					</td>
+					</tr>
+				
 
 
 
