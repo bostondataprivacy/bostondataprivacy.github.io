@@ -58,6 +58,7 @@
 		
 								
 						<br> Speaker: <a href="https://www2.math.upenn.edu/~ryrogers/">Ryan Rogers, LinkedIn</a>
+						<br><a href="https://youtu.be/zNfytmw5vMw">View recording here</a><br>
 						<br>
 						<br> Abstract:  Member privacy is a priority at LinkedIn and a key consideration in product design. We aim to protect member privacy by using innovative privacy engineering techniques such as differential privacy to provide valuable insights to members and policy makers.  The data privacy team at LinkedIn has developed new algorithms that work with existing real time data analytics systems, allowing us to develop systems at scale while protecting member privacy.  These algorithms privatize histograms in both the one-shot setting, where data is fixed, and for the continual observation setting, for streaming data. We also showcase some deployments of differential privacy in LinkedIn products.
 						</td>
@@ -68,6 +69,7 @@
 			
 									
 						<br> Speaker: <a href="https://athakurta.squarespace.com">Abhradeep Guha Thakurta, Google</a>  and  <a href="http://www.omthakkar.com">Om Thakkar, Google</a>
+						<br><a href="https://youtu.be/3d7HdeobEp4">View recording here</a><br>
 						<br>
 						<br> Abstract:  We consider training models with differential privacy (DP) using mini-batch gradients. The existing state-of-the-art, Differentially Private Stochastic Gradient Descent (DP-SGD), requires privacy amplification by sampling or shuffling to obtain the best privacy/accuracy/computation trade-offs. Unfortunately, the precise requirements on exact sampling and shuffling can be hard to obtain in important practical scenarios, particularly federated learning (FL). In this talk, we will present a DP variant of Follow-The-Regularized-Leader (DP-FTRL) that compares favorably (both theoretically and empirically) to amplified DP-SGD, while allowing for much more flexible data access patterns. DP-FTRL does not use any form of privacy amplification.
  
@@ -114,7 +116,8 @@
 					<td><strong>Differentially private inference via noisy optimization</strong><br>
 						
 												
-						<br> Speaker: <a href="https://sites.google.com/site/marcoavellamedina/home">Marco Avella Medina, Columbia University</a>  
+						<br> Speaker: <a href="https://sites.google.com/site/marcoavellamedina/home">Marco Avella Medina, Columbia University</a>
+						<br><a href="https://youtu.be/utUkTkX-2-Y">View recording here</a><br>  
 						<br>
 						<br> Abstract:  We propose a general optimization-based framework for computing differentially private M-estimators and a new method for the construction of differentially private confidence regions. Firstly, we show that robust statistics can be used in conjunction with noisy gradient descent and noisy Newton methods in order to obtain optimal private estimators with global linear or quadratic convergence, respectively. We establish global convergence guarantees, under both local strong convexity and self-concordance, showing that our private estimators converge with high probability to a neighborhood of the non-private M-estimators. The radius of this neighborhood is nearly optimal in the sense it corresponds to the statistical minimax cost of differential privacy up to a logarithmic term. Secondly, we tackle the problem of parametric inference by constructing differentially private estimators of the asymptotic variance of our private M-estimators. This naturally leads to the use of approximate pivotal statistics for the construction of confidence regions and hypothesis testing. We demonstrate the effectiveness of a bias correction that leads to enhanced small-sample empirical performance in simulations. 
 
@@ -127,6 +130,7 @@
 							
 													
 						<br> Speaker: <a href="http://vtaly.net">Vitaly Feldman, Apple</a>  
+						<br><a href="https://youtu.be/IdeWe-zhdfk">View recording here</a><br>  
 						<br>
 						<br> Abstract:  Locally Differentially Private (LDP) Reports are commonly used for collection of statistics and machine learning in the federated setting. 
 
@@ -137,6 +141,17 @@
 						(2) New algorithms for frequency estimation and high-dimensional mean estimation that achieve the optimal privacy/utility trade-off and have low communication cost.
 						
 						Based on joint works with Hilal Asi, Jelani Nelson, Huy Nguyen and Kunal Talwar
+					</td>
+					</tr>
+				
+				<tr><td>Monday, May 23 at 11:30-12:30 ET</td>
+					<td><strong>"Your responses will be retained until ...": The challenge of retaining information without retaining individual responses in a global COVID symptom survey.</strong><br>
+							
+													
+						<br> Speaker: <a href="https://jpsm.umd.edu/facultyprofile/kreuter/frauke">Frauke Kreuter, University of Maryland/LMU Munich</a>  and  <a href="https://zstevenwu.com">Steven Wu, Carnegie Mellon University</a>
+						<br><a href="https://youtu.be/cOZi7JSlSn0">View recording here</a><br>  
+						<br>
+						<br> Abstract:  This presentation discussed the challenge of preserving long-term utility of a global COVID-19 symptom survey. The global sample includes more than 240 countries and territories since the launch of data collection, of which 115 are weighted to better reflect the age and gender of the general adult population. CTIS individual-level data and aggregate estimates are available for the nation level as well as for administrative level-1 subnational regions. Aggregates have been released publicly. The sample is a daily repeated cross-section of Facebook app users who can see an invitation as often as every month and as infrequently as every 5 months. This means the data can be used to detect both daily and weekly changes in COVID-19 symptoms as well as a variety of other COVID-related and public health outcomes, such as barriers to vaccination or mental health. This has enabled both local and national governments and non-governmental organizations to detect and respond to changes in trends and to evaluate the effectiveness of COVID policies and restrictions. Preserving the richness of this information for future use is key, though challenged by a promise made to EU respondents, that their responses will be retained for a period of two years. The talk will discuss steps taken to apply disclosure control to the daily cross-sectional estimates and to create DP synthetic data that allow detailed time series and causal effect analyses going forward. We hope to discuss with the group how to handle weights when creating the DP synthetic files and how to evaluate synthetic data in the presence of weighted private files. This is joint work with Caro Haensch (LMU Munich) and Terrance Liu (CMU).
 					</td>
 					</tr>
 				
