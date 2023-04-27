@@ -64,14 +64,15 @@ body {
 	padding-bottom: 80px;
 }
 
-.schedule {
-	
+.schedule table {
+	margin: 12px 24px;
 }
 
 
 .schedule td {
-	padding: 8px 4px;
-	font-size: 12pt;
+
+	padding: 12px 12px;
+	font-size: 13pt;
 	font-weight: 400;
 	border-collapse: collapse;
 	vertical-align: top;
@@ -100,4 +101,8 @@ body {
 
 .schedule li {
 	
+}
+
+.talk-info li {
+	padding: 4px;
 }
