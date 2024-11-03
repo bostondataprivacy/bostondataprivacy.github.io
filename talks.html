@@ -38,6 +38,46 @@
 					<th width="70%">Talk</th>
 				</tr>
 				-->
+				<tr><td colspan=3><center><strong>=== Fall 2023 ===</strong></center></td></tr>
+				
+				
+				<tr><td> Friday, December 8th, 3-430 pm ET </td> 
+				<td><strong> On Provable Copyright Protection for Generative Models</strong><br>
+				
+					<br> Speaker: <a href="https://nikhilvyas.github.io/">Nikhil Vyas, Harvard</a>
+					<br>
+					<br> Abstract: There is a growing concern that learned conditional generative models may output samples that are substantially similar to some copyrighted data C that was in their training set. We give a formal definition of near access-freeness (NAF) and prove bounds on the probability that a model satisfying this definition outputs a sample similar to C, even if C is included in its training set. Roughly speaking, a generative model p is k-NAF if for every potentially copyrighted data C, the output of p diverges by at most k-bits from the output of a model q that did not access C at all. We also give generative model learning algorithms, which efficiently modify the original generative model learning algorithm in a black box manner, that output generative models with strong bounds on the probability of sampling protected content. Furthermore, we provide promising experiments showing minimal degradation in output quality while ensuring strong protections against sampling protected content. Joint work with Sham Kakade and Boaz Barak (https://arxiv.org/abs/2302.10870)
+				</td>
+				</tr>
+				
+				<tr><td>Friday, November 10th, 3-430 pm ET </td> 
+				<td><strong> Triangle Counting under Local Differential Privacy: Algorithms and Techniques</strong><br>
+				
+					<br> Speaker: <a href="https://jimola.github.io/">Jacob Imola, UCSD</a>
+					<br>
+					<br> Abstract: In many machine learning applications, users hold data on a local device and communicate with an untrusted central analyst. Local differential privacy is the state-of-the art way to ensure that all data sent by a user will be protected regardless of who eventually sees the data. In this talk, we will focus on computing the number of triangles in a graph, a simple yet nontrivial query which has real-world importance, under local DP. We will outline several private algorithms which improve upon each other and illustrate new ideas in this area. First, we will propose an algorithm with a strong error guarantee that uses two rounds of user interaction. Unfortunately, it may have prohibitively large per-user download cost. Second, we will fix these matters by using edge sampling, along with a selective download, to create an algorithm which smoothly trades off between the download cost and error. Third, we will propose an algorithm which, using just a single round of interaction, privately counts triangles in the shuffled model of DP. The algorithm uses a novel edge sampling scheme and is also able to compute 4-cycles with low error. Finally, we will describe work on lower bounds for the problem, and further questions towards generalizing these bounds and algorithms.
+				</td>
+				</tr>
+				
+				<tr><td>Friday, October 27th, 3-430 pm ET </td> 
+				<td><strong> Characterizing Minimax Generalization Error using Information-Theoretic Measures</strong><br>
+				
+					<br> Speaker: <a href="https://mhaghifam.github.io/mahdihaghifam/">Mahdi Haghifam, Northeastern University</a>
+					<br>
+					<br> Abstract: Generalization error measures the extent to which a learning algorithm overfits to the training data. Tight bounds on generalization error are crucial for understanding and improving machine learning algorithms. In this talk, we provide an overview of recent research on bounding generalization error using information-theoretic measures of dependence between the training set and output of a learning algorithm. Then, we answer the following question: For which learning problems are information-theoretic bounds expressive enough to estimate the optimal minimax performance? We will discuss the expressive power of information-theoretic generalization by studying the connections between information-theoretic frameworks for generalization and classical min-max frameworks such as VC theory and Uniform Stability. This talk draws upon insights from the following works: arxiv:2212.13556, arxiv:2206.14800, and arxiv:2111.05275.
+				</td>
+				</tr>
+				
+				
+				<tr><td>Friday, October 13th, 3-430 pm ET </td> 
+				<td><strong>Learning Mixtures of Unrestricted Gaussians Privately</strong><br>
+				
+					<br> Speaker: <a href="https://www.cas.mcmaster.ca/ashtiani/">Hassan Ashtiani, McMaster University</a>
+					<br>
+					<br> Abstract: We will talk about private parameter learning (https://arxiv.org/abs/2303.04288) and density estimation (https://arxiv.org/abs/2309.03847) for GMMs. In the parameter learning setting, we will show a poly-time (using poly-samples) reduction from the private problem to its non-private counterpart. For the density estimation setting, we show the first polynomial sample complexity upper bound. Through these examples, we will see some of the generic challenges of private distribution learning, and some techniques to tackle them.
+				</td>
+				</tr>
+				
 				<tr><td colspan=3><center><strong>=== Fall 2022 ===</strong></center></td></tr>
 
 				<tr><td>Friday, September 16 at 10:30-11:45 am ET</td>
