@@ -64,7 +64,7 @@
 			</tr>
 			<tr>
 				<td> <strong>9:30am - 10:30am</strong></td>
-				<td> Gautam Kamath, University of Waterloo</br><em> TBA </em></td>
+				<td> Gautam Kamath, University of Waterloo</br><em> The Broader Landscape of Robustness in Mean Estimation </em></td>
 			</tr>
 			<tr>
 				<td> <strong>10:30am - 11:00am</strong></td>
@@ -72,7 +72,7 @@
 			</tr>
 			<tr>
 				<td> <strong>11:00am - 12:00pm</strong></td>
-				<td> Priyanka Nanayakkara, Harvard</br><em> TBA </em></td>
+				<td> Priyanka Nanayakkara, Harvard</br><em> Differential Privacy Interfaces for Data Users </em></td>
 			</tr>
 			<tr>
 				<td> <strong>12:00pm - 2:00pm</strong></td>
@@ -80,7 +80,7 @@
 			</tr>
 			<tr>
 				<td> <strong>2:00pm - 3:00pm</strong></td>
-				<td> Jalaj Upadhyay, Rutgers University</br><em> TBA </em></td>
+				<td> Jalaj Upadhyay, Rutgers University</br><em> A brief history of differentially private continual counting and its applications </em></td>
 			</tr>
 			<tr>
 				<td> <strong>3:00pm - 3:30pm</strong></td>
@@ -88,7 +88,7 @@
 			</tr>
 			<tr>
 				<td> <strong>3:30pm - 4:30pm</strong></td>
-				<td> Virginia Smith, CMU</br><em> TBA </em></td>
+				<td> Virginia Smith, CMU</br><em> Getting Lost in ML Safety Vibes </em></td>
 			</tr>
 		</table>
 		</div>
@@ -98,21 +98,19 @@
 			<ul>
 			Stay Tuned!
 			</ul>
-		<!--
+		
 			<ul>
-				<li><strong>Speaker:</strong> Jelani Nelson, UC Berkeley </br><strong>Title:</strong> New local differentially private protocols for frequency and mean estimation </br> <strong>Abstract:</strong> Consider the following examples of distributed applications: a texting app wants to train ML models for autocomplete based on text history residing on-device across millions of devices, or the developers of some other app want to understand common app settings by their users. In both cases, and many others, a third party wants to understand something in the aggregate about a large distributed database but under the constraint that each individual record requires some guarantee of privacy. Protocols satisfying so-called local differential privacy have become the gold standard for guaranteeing privacy in such situations, and in this talk I will discuss new such protocols for two of the most common problems that require solutions in this framework: frequency estimation, and mean estimation. Based on joint works with subsets of Hilal Asi, Vitaly Feldman, Huy Le Nguyen, and Kunal Talwar.</li>
+				<li><strong>Speaker:</strong> Gautam Kamath, University of Waterloo </br><strong>Title:</strong> The Broader Landscape of Robustness in Mean Estimation  </br> <strong>Abstract:</strong> Mean estimation is a simple statistical task, solved optimally by a simple algorithm: the empirical mean. The story changes dramatically when the estimator is required to be robust. What exactly it means for an estimator to be robust can depend on the situation. It can be robust to model misspecification or adversarial contamination. It can be robust to outliers caused by heavy-tailed data. Or it can be robust in the sense of differential privacy. We will discuss how, surprisingly, we can design computationally efficient algorithms subject to all these types of robustness using the same underlying technical ideas, resulting in powerful estimators that are qualitatively quite different from the empirical mean. These connections offer glimpses of a broader landscape of robustness in statistical estimation.
 				
-				<li><strong>Speaker:</strong> Sewoong Oh, University of Washington </br><strong>Title:</strong> Rethinking auditing privacy from first principles </br> <strong>Abstract:</strong> Differentially private training of models is error prone due to miscalculations of the sensitivity or mistakes in the implementations. Techniques for detecting such false claims of differential privacy are critical in ensuring a trustworthy ecosystem where codes and algorithms commonly are shared. A major bottleneck in the standard statistical approaches for auditing private training is in its sample complexity. Drawing a single sample for auditing can be as computationally intense as training a model from scratch. We are in a dire need of sample efficient approaches to provide a tight lower bound on the privacy leakage. However, if we hang on to the standard definition of differential privacy, then we are fundamentally limited by the sample dependence of the Bernoulli confidence intervals involved. To break this barrier, it requires rethinking differential privacy from first principles. To this end, we introduce Lifted Differential Privacy that, while equivalent to differential privacy, allows the privacy auditor to search over a larger space of counterexamples. We exploit this lifted search space in our novel design of audits that inject multiple canary examples. By generating those canaries randomly, the Lifted DP condition allows us to reuse each trained model and run multiple binary hypothesis tests for the presence or absence of each canary. Together with a novel confidence interval that exploits the (lack of) correlation between those test statistics, we showcase the significant gain in sample complexity both theoretically and empirically.</li>
+				<li><strong>Speaker:</strong> Priyanka Nanayakkara, Harvard </br><strong>Title:</strong>  Differential Privacy Interfaces for Data Users </br> <strong>Abstract:</strong> Differential privacy (DP) offers a suite of theoretical tools for enabling privacy-preserving data science. However, using these tools in practice often requires a team of DP experts to navigate new constraints imposed by DP on analysis (e.g., spending epsilon), limiting DP's real-world impact. In this talk, I will describe how interactive interfaces can help data users without DP expertise effectively use DP, widening the potential for DP's impact. Specifically, I will present (1) an interactive interface for data curators setting epsilon while considering implications to both accuracy of estimates and disclosure risk and (2) an interactive paradigm---instantiated in an interactive interface---to support analysts in spending epsilon efficiently during exploratory analysis. Together, these works demonstrate the promise of interfaces in bringing DP from theory into practice. Based on joint works with Johes Bater, Xi He, Jessica Hullman, Hyeok Kim, Narges Mahyar, Gerome Miklau, Jennie Rogers, Ali Sarvghad, and Yifan Wu.
 				
-				<li><strong>Speaker:</strong> Jayshree Sarathy, Harvard University </br><strong>Title:</strong> Data Perceptions and Practices: Exploring Social Factors around the Uptake of Differential Privacy </br> <strong>Abstract:</strong> Deployments of differential privacy (DP) in the last decade have drawn attention to the challenges of bridging theory and practice. In this talk, we will explore some of the social factors—in particular, perceptions and practices around data—that shape these challenges. First, we consider the modernization of disclosure avoidance in the 2020 U.S. Census, examining how the move to DP revealed epistemic disconnects around what we identify as a “statistical imaginary” of census data. Second, we discuss a user study to investigate the utility of DP tools for social science researchers, exploring tensions between DP and the practices of data science. These two studies raise questions around centering social factors when deploying DP for public interest. This talk is based on work with danah boyd, Audrey Haque, Tania Schlatter, Sophia Song, and Salil Vadhan.</li>				
 				
-				<li><strong>Speaker:</strong> Jessica Sorrell, University of Pennsylvania </br><strong>Title:</strong> Connections Between Replicability, Privacy, and Perfect Generalization </br> <strong>Abstract:</strong> Replicability is vital to ensuring scientific conclusions are reliable, but failures of replicability have been a major issue in nearly all scientific areas of study in recent decades. A key issue underlying the replicability crisis is the explosion of methods for data generation, screening, testing, and analysis, where, crucially, only the combinations producing the most significant results are reported. Such practices (also known as p-hacking, data dredging, and researcher degrees of freedom) can lead to erroneous findings that appear to be significant, but that don’t hold up when other researchers attempt to replicate them.
-				In this talk, we will explore connections between replicability and other stability notions that have proven useful in ensuring statistical validity. We will discuss statistical equivalences between replicability, approximate differential privacy, and perfect generalization, as well as computational separations.
+				<li><strong>Speaker:</strong> Jalaj Upadhyay, Rutgers University </br><strong>Title:</strong> A brief history of differentially private continual counting and its applications </br> <strong>Abstract:</strong> Differential privacy is now considered the de facto notion of privacy; however, there is still a wide gap between the theory and practice of differential privacy. This talk will discuss the fundamental reasons for this discrepancy using continual counting as an example. We will briefly overview the problem and discuss recent advances in differentially private continual observation that achieves fine-grained error bounds. Time permitting, we will also discuss some of the implications of these results in both real-world applications and abstract mathematics. This talk is based on joint work with Hendrik Fichtenberger, Monika Henzinger, and Sarvagya Upadhyay.
 
-				This talk is based on work with Mark Bun, Marco Gaboardi, Max Hopkins, Russell Impagliazzo, Rex Lei, Toniann Pitassi, and Satchit Sivakumar.</li>
+				<li><strong>Speaker:</strong> Virginia Smith, CMU </br><strong>Title:</strong> Getting Lost in ML Safety Vibes </br> <strong>Abstract:</strong> Machine learning applications are increasingly reliant on black-box pretrained models. To ensure safe use of these models, techniques such as unlearning, guardrails, and watermarking have been proposed to curb model behavior and audit usage. Unfortunately, while these post-hoc approaches give positive safety ‘vibes’ when evaluated in isolation, our work shows that existing techniques are quite brittle when deployed as part of larger systems. In a series of recent works, we show that: (a) small amounts of auxiliary data can be used to 'jog' the memory of unlearned models; (b) current unlearning benchmarks obscure deficiencies in both finetuning and guardrail-based approaches; and (c) simple, scalable attacks erode existing LLM watermarking systems and reveal fundamental trade-offs in watermark design. Taken together, these results highlight major deficiencies in the practical use of post-hoc ML safety methods. We end by discussing promising alternatives to ML safety, which instead aim to ensure safety by design during the development of ML systems..</li>
 
 			</ul>
-		-->
+		
 
 	</div> 
 <hr />
