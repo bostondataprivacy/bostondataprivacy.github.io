@@ -70,7 +70,7 @@
 			</tr>
 			<tr>
 				<td> <strong>11:00am - 12:00pm</strong></td>
-				<td> Alessandro Epasto</a>, Google</br><em> TBD </em></td>
+				<td> Alessandro Epasto</a>, Google</br><em> Efficient Private Algorithms for Graphs (and Using Graphs) </em></td>
 			</tr>
 			<tr>
 				<td> <strong>12:00pm - 2:00pm</strong></td>
@@ -99,7 +99,13 @@
 In the context of estimation problems, we will discuss a particular instantiation of the "robustness to privacy” paradigm and use it to learn SBMs and mixtures of spherical Gaussians under differential privacy. We will then see how one can exploit the geometry of the space to design DP algorithms to  release graph powers and k-way marginals.
 Finally, time permitting, we will see how similar ideas are also implicitly used in practical applications.
 				
-				<li><strong>Speaker:</strong> Alessandro Epasto</a>, Google </br><strong>Title:</strong> TBD </br> <strong>Abstract:</strong> TBD
+				<li><strong>Speaker:</strong> Alessandro Epasto</a>, Google </br><strong>Title:</strong> Efficient Private Algorithms for Graphs (and Using Graphs) </br> <strong>Abstract:</strong> Graphs are a fundamental data structure in machine learning applications and lie at the core of countless industrial applications.
+
+
+In this talk, I will cover recent research on differentially private (DP) algorithms for graphs. DP is a strong notion of privacy guarantees, promising plausible deniability for user data. I will discuss our work on designing efficient graph algorithms with a variety of applications from theory to practice.
+
+
+First, I will cover our work on efficient algorithms for finding communities in Stochastic Block Model (SBM) graphs. In this work, we demonstrate that it is possible to achieve exact recovery across a wide range of model parameters with near-linear time and space complexity. Our result is based on designing an efficient graph-perturbation method that, for a restricted (but sufficiently powerful) class of graph algorithms, allows us to inject significantly less noise than what is generally required to privatize a graph. This is a significant improvement over previous SBM recovery algorithms, which required quadratic time (at least) for a constant privacy budget. Then, I will show how efficient graph algorithms play a surprising role in the seemingly non-graph problem of sanitizing a private dataset of arbitrary items to extract as many items as possible while respecting user privacy. These two applications highlight the need for further research in efficient graph algorithms for privacy applications.
 				
 				<li><strong>Speaker:</strong> Ainesh Bakshi</a>, MIT  </br><strong>Title:</strong> Sample-Optimal Private Regression in Polynomial Time </br> <strong>Abstract:</strong>  Consider the task of privately obtaining prediction error guarantees via least-squares regression with Gaussian covariates (with unknown covariance structure). We provide the first sample-optimal polynomial time algorithm for this task under both pure and approximate differential privacy. We show that any improvement to the sample complexity of our algorithm would violate either statistical-query or information-theoretic lower bounds. Additionally, our algorithm is robust to a small fraction of arbitrary outliers and achieves optimal error rates as a function of the fraction of outliers. In contrast, all prior efficient algorithms either incurred sample complexities with sub-optimal dimension dependence, scaling with the condition number of the covariates, or obtained a polynomially worse dependence on the privacy parameters. Our technical contributions are two-fold: first, we leverage resilience guarantees of Gaussians within the sum-of-squares framework. As a consequence, we obtain efficient sum-of-squares algorithms for regression with optimal robustness rates and sample complexity. Second, we generalize the recent robustness-to-privacy framework [HKMN23] to account for the geometry induced by the covariance of the input samples. We believe our techniques are of independent interest, and we demonstrate this by obtaining an efficient algorithm for covariance-aware mean estimation, with an optimal dependence on the privacy parameters.
 
