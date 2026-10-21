@@ -1,44 +1,47 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Talks | Boston Area Differential Privacy</title>
 	<link rel="stylesheet" href="css/bostonprivacy.css">
 </head>
-	
 <body>
-	<div class="sidenav">
-		<div class="sidenav-title">
-			Boston-Area Data Privacy  <br><br>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<header class="site-header">
+		<div class="header-inner">
+			<a class="site-brand" href="index.html">Boston Area Differential Privacy</a>
+			<nav aria-label="Main navigation">
+				<a href="index.html">Home</a>
+				<a href="talks.html" aria-current="page">Talks</a>
+				<a href="privacy-day.html">CRISP</a>
+				<a href="summerschool/index.html" aria-label="Summer School (separate site)">Summer School <span aria-hidden="true">&#8599;</span></a>
+				<a href="https://dpcourse.github.io/" aria-label="DPCourse (external site)">DPCourse <span aria-hidden="true">&#8599;</span></a>
+			</nav>
 		</div>
-		A web site for a Boston-area group of researchers working on data privacy.<br>
-		
-		<a href="index.html">Home</a>
-		<a href="talks.html">Talks</a>
-		<a href="privacy-day.html">Privacy Day</a>
-		<a href="summerschool">Summer School</a>
-	</div>
-	
-	<div class="main">
-		<div class="main-title">
-			Boston-Area Data Privacy
+	</header>
+	<main id="main" class="main">
+		<div class="page-intro compact-intro">
+			<h1>Talks</h1>
 		</div>
+
+		<p class="announcement-text"><strong>The talk series has been on hiatus since Fall 2023.</strong></p>
+
 		 <p>
-		 	Below is the schedule of previous and upcoming Boston-area data privacy seminars. Join the <a href="https://groups.google.com/g/bostondataprivacy">mailing list</a> and <a href="https://calendar.google.com/calendar/u/0?cid=ZmN2MDBuNGd2MjdwazY0M2E4OXEwNDVqajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google calendar</a> for more information, including the Zoom meeting links.  
+			Below is the archive of past Boston area differential privacy seminars. Join the <a href="https://groups.google.com/g/bostondataprivacy">mailing list</a> and <a href="https://calendar.google.com/calendar/u/0?cid=ZmN2MDBuNGd2MjdwazY0M2E4OXEwNDVqajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google calendar</a> for updates about future seminars.
 		 </p>
 
 		<div class="schedule">
 			<table width="100%">
 
 				<!--
-				<tr><td colspan=3><center><strong>=== Upcoming Talks ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Upcoming Talks</strong></td></tr>
 				<tr>
 					<th width="12%">Date</th>
 					<th width="70%">Talk</th>
 				</tr>
 				-->
-				<tr><td colspan=3><center><strong>=== Fall 2023 ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Fall 2023</strong></td></tr>
 				
 				
 				<tr><td> Friday, December 8th, 3-430 pm ET </td> 
@@ -78,7 +81,7 @@
 				</td>
 				</tr>
 				
-				<tr><td colspan=3><center><strong>=== Fall 2022 ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Fall 2022</strong></td></tr>
 
 				<tr><td>Friday, September 16 at 10:30-11:45 am ET</td>
 				<td><strong>What Impacts (Empirical) Privacy Risk?</strong><br>
@@ -131,7 +134,7 @@
 					</tr>					
 
 
-				<tr><td colspan=3><center><strong>=== Spring 2022 ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Spring 2022</strong></td></tr>
 
 				<tr><td>Friday, January 21 at 11-12:30 ET</td>
 					<td><strong>FriendlyCore: Practical Differentially Private Aggregation</strong><br>
@@ -252,7 +255,7 @@
 
 
 
-				<tr><td colspan=3><center><strong>=== Fall 2021 ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Fall 2021</strong></td></tr>
 
 				<tr><td>Friday, October 15 at 11-12:30 ET</td>
 				<td><strong>Learning with user-level differential privacy</strong><br>
@@ -345,7 +348,7 @@
 						</td>
 					</tr>
 					
-				<tr><td colspan=3><center><strong>=== Spring 2021 ===</strong></center></td></tr>
+				<tr><td colspan="2"><strong class="season-heading">Spring 2021</strong></td></tr>
 
 				<tr><td>Friday, May 14 at 11-12:30 ET</td>
 				<td><strong>Near-Optimal Aggregation in the Shuffle DP Model</strong><br>
@@ -398,7 +401,7 @@
 
 						
 					<br> Speaker: <a href="http://kunaltalwar.org/">Kunal Talwar, Apple</a>
-					<br> <a href="slides/KunalTalwar.pdf">View slides here </a><br>
+					<br> <a href="talks/KunalTalwar.pdf">View slides here </a><br>
 					<br> Abstract:  I will summarize some recent works on differentially private (DP) algorithms for stochastic convex optimization: the problem of minimizing the population loss given i.i.d. samples from a distribution over convex loss functions. In the standard l2/l2 setting, we will see two approaches to getting optimal rates for this problem. We show that for a wide range of parameters, privacy causes no additional overhead in accuracy or run time. In the process, we will develop techniques for private stochastic optimization that work for other geometries. For the LASSO setting when optimizing over the l1 ball, we will see private algorithms that achieve optimal rates. Based on joint works with various subsets of Hilal Asi, Raef Bassily, Vitaly Feldman, Tomer Koren and Abhradeep Thakurta. 
 					</td>
 				</tr>
@@ -553,9 +556,7 @@
 					</td>
 				</tr>
 			</table>
-		</div>	
-	</div> 
-
+		</div>
+	</main>
 </body>
-
 </html>
