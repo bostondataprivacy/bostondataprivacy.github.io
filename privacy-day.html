@@ -50,20 +50,59 @@
 			</p>
 			<p>Additional details will be posted here.</p>
 
+			<h3 id="crisp-fall-2026-schedule">Tentative Schedule</h3>
+			<div class="schedule">
+				<table aria-labelledby="crisp-fall-2026-schedule">
+					<tbody>
+						<tr>
+							<td><strong>9:30am &ndash; 10:30am</strong></td>
+							<td><a href="https://tianshili.me/">Tianshi Li</a>, Northeastern University<br><em>How Foundation Models and AI Agents Challenge Anonymity</em></td>
+						</tr>
+						<tr>
+							<td><strong>10:30am &ndash; 11:00am</strong></td>
+							<td>Coffee break</td>
+						</tr>
+						<tr>
+							<td><strong>11:00am &ndash; 12:00pm</strong></td>
+							<td><a href="https://asealfon.github.io/">Adam Sealfon</a>, Google Research<br><em>BlueDown: Improved denoising of differentially private US Census data</em></td>
+						</tr>
+						<tr>
+							<td><strong>12:00pm &ndash; 2:00pm</strong></td>
+							<td>Lunch (on your own)</td>
+						</tr>
+						<tr>
+							<td><strong>2:00pm &ndash; 3:00pm</strong></td>
+							<td><a href="https://sandeepsilwal.com/">Sandeep Silwal</a>, UW Madison<br><em>The story of DP graph cuts so far</em></td>
+						</tr>
+						<tr>
+							<td><strong>3:00pm &ndash; 3:30pm</strong></td>
+							<td>Coffee break</td>
+						</tr>
+						<tr>
+							<td><strong>3:30pm &ndash; 4:30pm</strong></td>
+							<td><a href="https://www.samuelbhopkins.com/">Sam Hopkins</a>, MIT<br><em>Optimal Robust Community Detection</em></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
 			<h3>Talk Information</h3>
 			<div class="talk-info">
 				<ul>
 					<li><strong>Speaker:</strong> <a href="https://www.samuelbhopkins.com/">Sam Hopkins</a>, MIT<br>
-					<strong>Title:</strong> TBD<br>
-					<strong>Abstract:</strong> TBD</li>
+					<strong>Title:</strong> <em>Optimal Robust Community Detection</em><br>
+					<strong>Abstract:</strong> We study community detection in the sparse two-community stochastic block model when an adversary may corrupt a small constant fraction of the edges of the observed graph. For every ε &gt; 0, we give a nearly-linear-time algorithm which estimates the communities with accuracy within ε of the information-theoretically optimal accuracy, while tolerating a small constant fraction of adversarially corrupted edges. Previously, efficient algorithms with optimal accuracy were known only in the absence of corruptions, while robust algorithms either achieved only weak recovery or approached optimal accuracy only in the limit of large signal-to-noise ratio. Our algorithm is simple: approximate the second eigenvector of the nonbacktracking matrix, using a semidefinite program to cope with the corruptions, and use it to initialize belief propagation.<br>
+					Joint work with Yiding Hua, Sidhanth Mohanty, Amit Rajaraman, and David Steurer</li>
 
 					<li><strong>Speaker:</strong> <a href="https://tianshili.me/">Tianshi Li</a>, Northeastern University<br>
-					<strong>Title:</strong> TBD<br>
-					<strong>Abstract:</strong> TBD</li>
+					<strong>Title:</strong> <em>How Foundation Models and AI Agents Challenge Anonymity</em><br>
+					<p><strong>Abstract:</strong> Anonymity has long relied on the difficulty of linking seemingly innocuous information about an individual to their real-world identity. Foundation models and AI agents are fundamentally changing this assumption. By combining broad knowledge about people and the world with the ability to search, reason, and cross-reference information at scale, AI systems can turn subtle contextual cues into identifying evidence, dramatically lowering the expertise and effort required for re-identification.</p>
+					<p>In this talk, I will examine this emerging threat through a series of recent studies. Starting with a real-world re-identification incident involving publicly released interview transcripts, I will introduce AgentDoxx, a controlled evaluation framework for systematically measuring agentic re-identification risks. Our findings reveal how both parametric knowledge and information retrieved through web search contribute to these risks, why conventional anonymization approaches can fall short, and how re-identification vulnerability extends beyond highly public individuals. I will then discuss the broader implications for privacy in dataset releases, online activities, and increasingly personalized AI systems, where information from different contexts can be linked in ways that were previously impractical.</p>
+					<p>Turning to defenses, I will introduce AURA, an attack-informed anonymization framework designed to reduce re-identification risks while preserving the analytical utility of rich textual data. Finally, I will reflect on a broader set of open questions: As AI capabilities continue to improve, how should we rethink the threat model for anonymity? What kinds of protection can remain effective against increasingly capable agents? And what meaningful privacy guarantees can we offer when preserving rich, individual-level information is itself essential to the utility of data? With these questions, I hope to motivate a broader research agenda for protecting privacy and anonymity in the age of AI.</p></li>
 
 					<li><strong>Speaker:</strong> <a href="https://asealfon.github.io/">Adam Sealfon</a>, Google Research<br>
-					<strong>Title:</strong> TBD<br>
-					<strong>Abstract:</strong> TBD</li>
+					<strong>Title:</strong> <em>BlueDown: Improved denoising of differentially private US Census data</em><br>
+					<strong>Abstract:</strong> The 2020 United States Census adopted differential privacy to protect individual confidentiality, adding calibrated noise to summary demographic measurements that are then reconciled into population tables. We developed BlueDown, a postprocessing algorithm that combines techniques from linear regression and constrained optimization while exploiting measurement structure for efficiency. On 2020 Census data, BlueDown reduced the error of groupings by race at the county level by 21-36% and of all county-level groupings by 9-58%; at the tract level, it reduced error of groupings by housing type by 38-61%. These gains came at no cost to confidentiality or computational efficiency, and would improve the validity of research relying on this definitive dataset and analyses used to guide the distribution of over $1.5 trillion in annual federal spending.</li>
 
 					<li><strong>Speaker:</strong> <a href="https://sandeepsilwal.com/">Sandeep Silwal</a>, UW Madison<br>
 					<strong>Title:</strong> <em>The story of DP graph cuts so far</em><br>
